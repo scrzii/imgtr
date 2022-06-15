@@ -46,9 +46,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Algorithms\FlatBFS.cs" />
     <Compile Include="Algorithms\ClusteringAlgorithm.cs" />
     <Compile Include="Algorithms\DBSCAN.cs" />
     <Compile Include="Algorithms\KMeans.cs" />
+    <Compile Include="Algorithms\Models\BFSPoint.cs" />
+    <Compile Include="Algorithms\Models\FlatPoint.cs" />
+    <Compile Include="Algorithms\Models\Line.cs" />
     <Compile Include="Algorithms\Models\MDPoint.cs" />
     <Compile Include="Algorithms\Models\PlanePoint.cs" />
     <Compile Include="Form1.cs">

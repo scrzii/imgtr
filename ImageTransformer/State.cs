@@ -16,10 +16,15 @@ namespace ImageTransformer
 
         public static Bitmap CreateImage()
         {
-            var res = new Bitmap(Width, Height);
-            for (int x = 0; x < Width; x++)
+            return CreateImage(Width, Height);
+        }
+
+        public static Bitmap CreateImage(int width, int height)
+        {
+            var res = new Bitmap(width, height);
+            for (int x = 0; x < width; x++)
             {
-                for (int y = 0; y < Height; y++)
+                for (int y = 0; y < height; y++)
                 {
                     res.SetPixel(x, y, Color.White);
                 }
